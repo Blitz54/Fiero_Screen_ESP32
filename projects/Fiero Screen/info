@@ -1,0 +1,720 @@
+{
+  "uuid": "c9962ae1e8c68d41abeb7381af229a56",
+  "path": "Offline/Fiero Screen",
+  "name": "Fiero Screen",
+  "content": "",
+  "created_at": "2024-04-28 22:40:17",
+  "updated_at": "2024-11-28 15:38:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e071be73a96549792755fad754c54087",
+      "title": "Version 3",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5f17bba28bd34c0e8919c3d8e11b9aea": 1,
+        "b7766d68e01a4d1ebfe72bcd04f0bd43": 1,
+        "eb4b9aee9bd548aaa0d8f2be9fe0b10f": 1,
+        "6e24af66583640cfb8e74299159d4c22": 1,
+        "a1a68e8402b9461199345d2cae776c3f": 9,
+        "315733dc9845443aa436bae6d6e449ec": 6,
+        "a9b82b518e43412aa2e026c5c9c37ac7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ZX-XH2.54-2PZZ",
+          6,
+          "CONN-TH_2P-P2.50_HX25003-2A",
+          "GEAR1,GEAR2,GEAR3,GEAR4,GEARREV,WASHER",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429632",
+            "Manufacturer": "Megastar(兆星)",
+            "Manufacturer Part": "ZX-XH2.54-2PZZ",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "ZX-XH2.54-2PZZ",
+            "puuid": "cd3bdfa363e54a4f87ca99360039bc06",
+            "uuid": "315733dc9845443aa436bae6d6e449ec"
+          }
+        ],
+        [
+          "2N5401(TO-92)",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "CJ",
+            "Manufacturer Part": "2N3906",
+            "Supplier Part": "C9809",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "2N3906(TO-92)",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "eb4b9aee9bd548aaa0d8f2be9fe0b10f"
+          }
+        ],
+        [
+          "200",
+          2,
+          "R_AXIAL-0.3",
+          "R1,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "47",
+          2,
+          "R_AXIAL-0.3",
+          "R2,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "50000",
+          1,
+          "R_AXIAL-0.3",
+          "R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "5000",
+          1,
+          "R_AXIAL-0.3",
+          "R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "1000",
+          1,
+          "R_AXIAL-0.3",
+          "R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "50k",
+          1,
+          "R_AXIAL-0.3",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "4.7k",
+          1,
+          "R_AXIAL-0.3",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "ZX-XH2.54-3PZZ",
+          1,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "TEMP",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633",
+            "Manufacturer": "Megastar(兆星)",
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ZX-XH2.54-3PZZ",
+            "puuid": "6f03059a573f4700805bb9a6dfa3c822",
+            "uuid": "a9b82b518e43412aa2e026c5c9c37ac7"
+          }
+        ],
+        [
+          "NODEMCU-32SLUA",
+          1,
+          "COMM-TH_NODEMCU-32SLUA",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C111436",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "NodeMCU-32SLua",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NODEMCU-32SLUA",
+            "puuid": "6cdda41777024086945d62a5a913685c",
+            "uuid": "5f17bba28bd34c0e8919c3d8e11b9aea"
+          }
+        ],
+        [
+          "ILI9488",
+          1,
+          "ILI9488",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Color Touchscreen",
+            "Supplier Part": "",
+            "Supplier": "PJRC",
+            "link": "https://www.pjrc.com/store/display_ili9341_touch.html",
+            "Contributor": "mark dandridge",
+            "spiceSymbolName": "ILI9488",
+            "puuid": "b23b25ad041846f0a40c9e3c05246dc8",
+            "uuid": "b7766d68e01a4d1ebfe72bcd04f0bd43"
+          }
+        ],
+        [
+          "KH-2.54FH90-1X14P-H8.5",
+          1,
+          "HDR-TH_14P-P2.54-H-F-W10.0-N",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2932685",
+            "Manufacturer": "kinghelm(金航标)",
+            "Manufacturer Part": "KH-2.54FH90-1X14P-H8.5",
+            "spiceSymbolName": "KH-2.54FH90-1X14P-H8.5",
+            "puuid": "e95ce98495634c6e9ed8b5397ae1f703",
+            "uuid": "6e24af66583640cfb8e74299159d4c22"
+          }
+        ],
+        [
+          "ZX-XH2.54-2PZZ",
+          6,
+          "CONN-TH_2P-P2.50_HX25003-2A",
+          "GEAR1,GEAR2,GEAR3,GEAR4,GEARREV,WASHER",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429632",
+            "Manufacturer": "Megastar(兆星)",
+            "Manufacturer Part": "ZX-XH2.54-2PZZ",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "ZX-XH2.54-2PZZ",
+            "puuid": "cd3bdfa363e54a4f87ca99360039bc06",
+            "uuid": "315733dc9845443aa436bae6d6e449ec"
+          }
+        ],
+        [
+          "2N5401(TO-92)",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "CJ",
+            "Manufacturer Part": "2N3906",
+            "Supplier Part": "C9809",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "2N3906(TO-92)",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "eb4b9aee9bd548aaa0d8f2be9fe0b10f"
+          }
+        ],
+        [
+          "200",
+          2,
+          "R_AXIAL-0.3",
+          "R1,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "50",
+          2,
+          "R_AXIAL-0.3",
+          "R2,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "50000",
+          1,
+          "R_AXIAL-0.3",
+          "R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "5000",
+          1,
+          "R_AXIAL-0.3",
+          "R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "1000",
+          1,
+          "R_AXIAL-0.3",
+          "R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "47k",
+          1,
+          "R_AXIAL-0.3",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "4.7k",
+          1,
+          "R_AXIAL-0.3",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "ZX-XH2.54-3PZZ",
+          1,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "TEMP",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633",
+            "Manufacturer": "Megastar(兆星)",
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ZX-XH2.54-3PZZ",
+            "puuid": "6f03059a573f4700805bb9a6dfa3c822",
+            "uuid": "a9b82b518e43412aa2e026c5c9c37ac7"
+          }
+        ],
+        [
+          "NODEMCU-32SLUA",
+          1,
+          "COMM-TH_NODEMCU-32SLUA",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C111436",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "NodeMCU-32SLua",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NODEMCU-32SLUA",
+            "puuid": "6cdda41777024086945d62a5a913685c",
+            "uuid": "5f17bba28bd34c0e8919c3d8e11b9aea"
+          }
+        ],
+        [
+          "ILI9488",
+          1,
+          "ILI9488",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Color Touchscreen",
+            "Supplier Part": "",
+            "Supplier": "PJRC",
+            "link": "https://www.pjrc.com/store/display_ili9341_touch.html",
+            "Contributor": "mark dandridge",
+            "spiceSymbolName": "ILI9488",
+            "puuid": "b23b25ad041846f0a40c9e3c05246dc8",
+            "uuid": "b7766d68e01a4d1ebfe72bcd04f0bd43"
+          }
+        ],
+        [
+          "KH-2.54FH90-1X14P-H8.5",
+          1,
+          "HDR-TH_14P-P2.54-H-F-W10.0-N",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2932685",
+            "Manufacturer": "kinghelm(金航标)",
+            "Manufacturer Part": "KH-2.54FH90-1X14P-H8.5",
+            "spiceSymbolName": "KH-2.54FH90-1X14P-H8.5",
+            "puuid": "e95ce98495634c6e9ed8b5397ae1f703",
+            "uuid": "6e24af66583640cfb8e74299159d4c22"
+          }
+        ]
+      ],
+      "updateTime": 1719440271,
+      "createTime": 1717493759,
+      "histories": [],
+      "created_at": "2024-06-04 04:35:59",
+      "updated_at": "2024-06-26 17:17:51"
+    },
+    {
+      "uuid": "637d4a607084c5b607125c87a59e26c1",
+      "title": "Version 4",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5f17bba28bd34c0e8919c3d8e11b9aea": 1,
+        "b7766d68e01a4d1ebfe72bcd04f0bd43": 1,
+        "eb4b9aee9bd548aaa0d8f2be9fe0b10f": 1,
+        "6e24af66583640cfb8e74299159d4c22": 1,
+        "a1a68e8402b9461199345d2cae776c3f": 9,
+        "315733dc9845443aa436bae6d6e449ec": 6,
+        "a9b82b518e43412aa2e026c5c9c37ac7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ZX-XH2.54-2PZZ",
+          12,
+          "CONN-TH_2P-P2.50_HX25003-2A",
+          "GEAR1,GEAR1,GEAR2,GEAR2,GEAR3,GEAR3,GEAR4,GEAR4,GEARREV,GEARREV,WASHER,WASHER",
+          {
+            "Manufacturer Part": "ZX-XH2.54-2PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429632"
+          }
+        ],
+        [
+          "2N5401(TO-92)",
+          2,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q4,Q4",
+          {
+            "Manufacturer Part": "2N3906",
+            "Manufacturer": "CJ",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9809"
+          }
+        ],
+        [
+          "200",
+          4,
+          "R_AXIAL-0.3",
+          "R1,R1,R3,R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47",
+          2,
+          "R_AXIAL-0.3",
+          "R2,R4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "50",
+          2,
+          "R_AXIAL-0.3",
+          "R2,R4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "50000",
+          2,
+          "R_AXIAL-0.3",
+          "R5,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "5000",
+          2,
+          "R_AXIAL-0.3",
+          "R6,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1000",
+          2,
+          "R_AXIAL-0.3",
+          "R7,R7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "50k",
+          1,
+          "R_AXIAL-0.3",
+          "R8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47k",
+          1,
+          "R_AXIAL-0.3",
+          "R8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4.7k",
+          2,
+          "R_AXIAL-0.3",
+          "R9,R9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ZX-XH2.54-3PZZ",
+          2,
+          "CONN-TH_3P-P2.54_2501S-3P",
+          "TEMP,TEMP",
+          {
+            "Manufacturer Part": "ZX-XH2.54-3PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7429633"
+          }
+        ],
+        [
+          "NODEMCU-32SLUA",
+          2,
+          "COMM-TH_NODEMCU-32SLUA",
+          "U1,U1",
+          {
+            "Manufacturer Part": "NodeMCU-32SLua",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C111436"
+          }
+        ],
+        [
+          "ILI9488",
+          2,
+          "ILI9488",
+          "U2,U2",
+          {
+            "Manufacturer Part": "Color Touchscreen",
+            "Manufacturer": "",
+            "Supplier": "PJRC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "KH-2.54FH90-1X14P-H8.5",
+          2,
+          "HDR-TH_14P-P2.54-H-F-W10.0-N",
+          "U4,U4",
+          {
+            "Manufacturer Part": "KH-2.54FH90-1X14P-H8.5",
+            "Manufacturer": "kinghelm(金航标)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2932685"
+          }
+        ]
+      ],
+      "updateTime": 1719987228,
+      "createTime": 1718320976,
+      "histories": [],
+      "created_at": "2024-06-13 18:22:56",
+      "updated_at": "2024-07-03 01:13:48"
+    },
+    {
+      "uuid": "3057157da2c8387d1b49efc1549ba5e2",
+      "puuid": "c9962ae1e8c68d41abeb7381af229a56",
+      "title": "PCB Version 1",
+      "filename": "PCB Version 1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36b1306a115341f4b4d9407fb34974e0": 6,
+        "f83673d09e13450d934ca6be4be5af8f": 1,
+        "5c151642f5ca4b219fdefa11da9edb9f": 1,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "2d77835a35ce42c3a8a708639960ec8e": 6,
+        "3eb1249f3ebb4284ae221b0379016582": 3,
+        "6cdda41777024086945d62a5a913685c": 1
+      },
+      "BOM": [],
+      "updateTime": 1716939369,
+      "createTime": 1715312393,
+      "histories": [],
+      "created_at": "2024-05-09 22:39:53",
+      "updated_at": "2024-05-28 18:36:09"
+    },
+    {
+      "uuid": "fd8b476881d63c96ca9dde8f1ba9004f",
+      "puuid": "c9962ae1e8c68d41abeb7381af229a56",
+      "title": "PCB_Fiero Screen",
+      "filename": "PCB_Fiero Screen.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cd3bdfa363e54a4f87ca99360039bc06": 6,
+        "6f03059a573f4700805bb9a6dfa3c822": 1,
+        "3eb1249f3ebb4284ae221b0379016582": 9,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "6cdda41777024086945d62a5a913685c": 1,
+        "e95ce98495634c6e9ed8b5397ae1f703": 1
+      },
+      "BOM": [],
+      "updateTime": 1732829922,
+      "createTime": 1717767870,
+      "histories": [],
+      "created_at": "2024-06-07 08:44:30",
+      "updated_at": "2024-11-28 15:38:42"
+    }
+  ],
+  "sort": [
+    "e071be73a96549792755fad754c54087",
+    "637d4a607084c5b607125c87a59e26c1"
+  ],
+  "title": "Fiero Screen",
+  "foldername": "Fiero Screen",
+  "schfilename": "Fiero Screen.json",
+  "schfilemtime": 1719987228816
+}

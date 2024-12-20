@@ -209,8 +209,8 @@ float FuelValuesIN[] = { 640, 752, 809, 891, 960, 1040, 1107, 1171, 1231, 1288, 
 float FuelValuesOUT[] = { 0, 21, 42, 63, 84, 105, 126, 147, 168, 189, 210 };
 
 //array for coolant readings. First one is analogReadMilliVolts, second one is Fahrenheit. 1k R1 and 47ohm R2 inline with sensor.
-float CoolantValuesIN[] = { 253, 279, 318, 344, 381, 441, 452, 509, 595, 676, 742, 857, 892, 953, 1049, 1212, 1336, 1463, 1754, 1966, 2172, 2449, 2790, 2863, 2943, 2998, 3039, 3098, 3129 };
-float CoolantValuesOUT[29] = { 290, 280, 270, 260, 250, 240, 230, 220, 210, 200, 190, 180, 175, 170, 160, 150, 140, 130, 110, 100, 90, 70, 40, 30, 20, 10, 0, -20, -40 };  //17 readings, from 100 to 260
+float CoolantValuesIN[] =     {253, 279, 318, 344, 381, 441, 452, 509, 595, 676, 742, 857, 892, 953, 1049, 1212, 1336, 1463, 1754, 1966, 2172, 2449, 2790, 2863, 2943, 2998, 3039, 3098, 3129};
+float CoolantValuesOUT[29] =  {290, 280, 270, 260, 250, 240, 230, 220, 210, 200, 190, 180, 175, 170,  160,  150,  140,  130,  110,  100,   90,   70,   40,   30,   20,   10,    0,  -20,  -40};  //17 readings, from 100 to 260
 
 float temperatureInCelsius = sensors.getTempCByIndex(SENSOR_INDEX);
 float temperatureInFahrenheit = sensors.getTempFByIndex(SENSOR_INDEX);
@@ -219,11 +219,14 @@ float oldtemp = 0;
 char tempstring[12];
 
 
-void FillSensorBarsSmoothlyToReading(int y, int f, int c) {
-  if (y <= f) {
+void FillSensorBarsSmoothlyToReading(int y, int f, int c)
+{
+  if (y <= f)
+  {
     tft.fillRect(280, 420 - y, 25, y, ORANGE);  //fill bar to new fuel level mapped
   }
-  if (y <= c) {
+  if (y <= c)
+  {
     tft.fillRect(15, 420 - y, 25, y, ORANGE);  //fill bar to new Coolant level mapped
   }
   Serial.println(y);
@@ -586,29 +589,33 @@ void WasherTaskCode(void *pvParameters) {  //NEED TO REDO
   }
 }
 
-void TPMSCode(void *pvParameters) {
-  for (;;) {
+void TPMSCode(void *pvParameters)
+{
+  for (;;)
+  {
     Serial.println("TPMS STUFF TO DO");
     vTaskDelay(2000);
   }
 }
 
-void TempSensorCode(void *pvParameters) {
-  for (;;) {
+void TempSensorCode(void *pvParameters)
+{
+  for (;;)
+  {
     sensors.requestTemperatures();
     float temperatureInCelsius = sensors.getTempCByIndex(SENSOR_INDEX);
-    Serial.println(temperatureInCelsius);
     vTaskDelay(500);
     // float temperatureInFahrenheit = sensors.getTempFByIndex(SENSOR_INDEX);
     if (oldtemp != temperatureInCelsius)
     {
       xSemaphoreTake(LCDMutex, portMAX_DELAY);
-      dtostrf(temperatureInCelsius, 9, 1, currenttemp);
+      dtostrf(temperatureInCelsius, 4, 1, currenttemp);
+      strcat(currenttemp, "°C");
       showmsgXY(245, 37, 25, FONT_SMALL, currenttemp);
       xSemaphoreGive(LCDMutex);
       oldtemp = temperatureInCelsius;
     }
-    vTaskDelay(2000);  // 2 second delay on checking outside temp. Preeeetty sure other tasks on core 2 still run?
+    vTaskDelay(5000);  // 2 second delay on checking outside temp. Preeeetty sure other tasks on core 2 still run?
   }
 }
 
